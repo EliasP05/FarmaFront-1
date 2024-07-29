@@ -24,8 +24,8 @@ export const FarmaLayout = () => {
               <h3>Farmacos</h3>
             </a>
             <a href="#">
-              <span className="material-symbols-outlined"></span>
-              <h3>Pefil</h3>
+              <span className="material-symbols-outlined">logout</span>
+              <h3>Salir</h3>
             </a>
           </div>
       </aside>
@@ -80,22 +80,22 @@ export const FarmaLayout = () => {
       </div>
        {/* FIN DE EXPENSES  */}
     </div>
-    <div className="recent-orders">
-      <h2>Resultado</h2>
+    <div className="buscar">
+      <button>Comparar</button>
+    </div>
+    <div className="recent-orders compatible">
+      <div className="head-result">
         <span className="material-symbols-outlined">monitoring</span>
+        <h2>Resultado</h2>
+      </div>
         <div className="middle">
           <div className="left">
-            <h3>Compatible</h3>
             <h1>Compatible</h1>
           </div>
           <div className="progreso">
-           informacion
-             <div className="number">
-              <p>50%</p>
-            </div> 
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consectetur exercitationem illo porro nihil alias aperiam. Id laboriosam deleniti nostrum quas fugit, ea incidunt, recusandae necessitatibus neque porro perferendis itaque?
           </div>
         </div>
-         <small className="text-muted">Last 24 hours</small> 
     </div>
   </div>
  
