@@ -658,10 +658,50 @@ main .prueba .recent-orders a{
     gap :0.2rem;
     margin-bottom: 1rem;
     cursor: pointer;
+    border-bottom: dotted 1px rgba(50, 49, 49, 0.318) ;
 }
+
 .right .recent-updates .updates .update span{
     color: var(--principal);
 }
+.right .recent-updates .updates .update .incompatible{
+    width: 1rem;
+    height: 1rem;
+    background: var(--text-incompatible);
+    border-radius: var(--border-radius-1);
+    position: relative;
+    top: 0.2rem;
+}
+.right .recent-updates .updates .update .compatible{
+    width: 1rem;
+    height: 1rem;
+    background: var(--text-compatible);
+    border-radius: var(--border-radius-1);
+    position: relative;
+    top: 0.2rem;
+}.right .recent-updates .updates .update .np{
+    width: 1rem;
+    height: 1rem;
+    background: var(--text-noprobado);
+    border-radius: var(--border-radius-1);
+    position: relative;
+    top: 0.2rem;
+}.right .recent-updates .updates .update .variable{
+    width: 1rem;
+    height: 1rem;
+    background: var(--text-variable);
+    border-radius: var(--border-radius-1);
+    position: relative;
+    top: 0.2rem;
+}.right .recent-updates .updates .update .incierto{
+    width: 1rem;
+    height: 1rem;
+    background: var(--text-incierto);
+    border-radius: var(--border-radius-1);
+    position: relative;
+    top: 0.2rem;
+}
+
 .right .sales-analytics{
     margin-top: 2rem;
 }

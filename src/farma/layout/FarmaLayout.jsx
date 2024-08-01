@@ -132,22 +132,41 @@ export const FarmaLayout = () => {
   <div className="recent-updates">
     <h2>Busquedas Recientes</h2>
       <div className="updates">
-      <div className="update">
-          <span className="material-symbols-outlined">youtube_searched_for</span>
+        <div className="update">
+          {/* <span className="material-symbols-outlined">youtube_searched_for</span> */}
+          <div className="compatible"></div>
           <div className="message">
             <p><b>Farmaco A</b>  + <b>Farmaco B</b></p>
               <small className="text-muted">2 hace 2 min</small>
           </div>
         </div>
         <div className="update">
-          <span className="material-symbols-outlined">youtube_searched_for</span>
+          {/* <span className="material-symbols-outlined">youtube_searched_for</span> */}
+          <div className="incompatible"></div>
           <div className="message">
             <p><b>Farmaco A</b>  + <b>Farmaco B</b></p>
               <small className="text-muted">2 hace 2 min</small>
           </div>
         </div>
         <div className="update">
-          <span className="material-symbols-outlined">youtube_searched_for</span>
+          {/* <span className="material-symbols-outlined">youtube_searched_for</span> */}
+          <div className="variable"></div>
+          <div className="message">
+            <p><b>Farmaco A</b>  + <b>Farmaco B</b></p>
+              <small className="text-muted">2 hace 2 min</small>
+          </div>
+        </div>
+        <div className="update">
+          {/* <span className="material-symbols-outlined">youtube_searched_for</span> */}
+          <div className="np"></div>
+          <div className="message">
+            <p><b>Farmaco A</b>  + <b>Farmaco B</b></p>
+              <small className="text-muted">2 hace 2 min</small>
+          </div>
+        </div>
+        <div className="update">
+          {/* <span className="material-symbols-outlined">youtube_searched_for</span> */}
+          <div className="incierto"></div>
           <div className="message">
             <p><b>Farmaco A</b>  + <b>Farmaco B</b></p>
               <small className="text-muted">2 hace 2 min</small>
