@@ -575,7 +575,7 @@ main .prueba .incompatible .middle .left h1{
     color: var(--text-incompatible);
 }
 main .prueba .variable .middle .left h1{
-    color: var(--text-variable);
+    color: var(--text-);
 }
 main .prueba .incierto .middle .left h1{
     color: var(--text-incierto);
